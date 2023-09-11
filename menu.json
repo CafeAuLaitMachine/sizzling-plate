@@ -1,0 +1,122 @@
+[
+    {
+      "item": "Fettuccine Alfredo",
+      "price": 14,
+      "description": "House-made pasta served with a classic Alfredo cream sauce."
+    },
+    {
+      "item": "Pan-Seared Salmon",
+      "price": 22,
+      "description": "Fresh salmon cooked to perfection, served with a lemon-butter sauce."
+    },
+    {
+      "item": "Margherita Pizza",
+      "price": 12.5,
+      "description": "Thin-crusted pizza topped with fresh mozzarella, juicy tomatoes, and sweet basil."
+    },
+    {
+      "item": "Porterhouse Steak",
+      "price": 34,
+      "description": "16 oz. steak seasoned and grilled to your preference, served with house steak sauce."
+    },
+    {
+      "item": "Garlic Shrimp Pasta",
+      "price": 19,
+      "description": "Juicy jumbo shrimps and linguini tossed with garlic and olive oil."
+    },
+    {
+      "item": "Minestrone Soup",
+      "price": 6,
+      "description": "A hearty bowl of vegetable soup simmered in a rich tomato base."
+    },
+    {
+      "item": "Caprese Salad",
+      "price": 10.5,
+      "description": "Fresh mozzarella, ripe tomatoes, and basil leaves, drizzled with olive oil and balsamic reduction."
+    },
+    {
+      "item": "Lemon Scallops",
+      "price": 25,
+      "description": "Pan-seared scallops served with a tangy lemon butter sauce."
+    },
+    {
+      "item": "Honey Glazed Chicken",
+      "price": 18,
+      "description": "Grilled chicken covered in a sweet and smoky honey glaze."
+    },
+    {
+      "item": "Stuffed Portobello Mushrooms",
+      "price": 9,
+      "description": "Large mushrooms stuffed with cheese, garlic, and herbs."
+    },
+    {
+      "item": "Caesar Salad",
+      "price": 8,
+      "description": "Romaine lettuce, Parmesan cheese, and croutons dressed in a creamy Caesar dressing."
+    },
+    {
+      "item": "Classic Cheese Burger",
+      "price": 12,
+      "description": "Juicy beef patty, fresh lettuce, tomatoes, onions, and cheese served with crispy fries."
+    },
+    {
+      "item": "Lobster Risotto",
+      "price": 28,
+      "description": "Creamy risotto with chunks of succulent lobster."
+    },
+    {
+      "item": "BBQ Baby Back Ribs",
+      "price": 23,
+      "description": "Slow-cooked ribs smothered in our signature BBQ sauce."
+    },
+    {
+      "item": "Sautéed Green Beans",
+      "price": 6,
+      "description": "Seasoned green beans sautéed with garlic and shallots."
+    },
+    {
+      "item": "Fried Calamari",
+      "price": 11,
+      "description": "Lightly battered and fried rings of calamari served with tangy tartar sauce."
+    },
+    {
+      "item": "Quinoa Salad",
+      "price": 8,
+      "description": "Healthy quinoa mixed with fresh veggies and a light vinaigrette."
+    },
+    {
+      "item": "Classic Spaghetti Bolognese",
+      "price": 14,
+      "description": "Spaghetti served with rich and meaty tomato sauce."
+    },
+    {
+      "item": "Peking Duck",
+      "price": 26,
+      "description": "Crispy skin duck served with Chinese pancakes and traditional condiments."
+    },
+    {
+      "item": "Chicken Parmesan",
+      "price": 19,
+      "description": "Breaded chicken breast topped with marinara sauce and mozzarella cheese."
+    },
+    {
+      "item": "Tandoori Chicken",
+      "price": 20,
+      "description": "Marinated in a mixture of spices and grilled to perfection, served with cucumber raita."
+    },
+    {
+      "item": "Greek Salad",
+      "price": 9,
+      "description": "Fresh cucumbers, tomatoes, olives, feta cheese, and red onions, with an herby vinaigrette."
+    },
+    {
+      "item": "Lobster Thermidor",
+      "price": 32,
+      "description": "Lobster cooked in a creamy cheese sauce, then placed back into its shell."
+    },
+    {
+      "item": "Classic Cheesecake",
+      "price": 8,
+      "description": "Creamy and smooth cheesecake served with a side of mixed berries."
+    }
+  ]
