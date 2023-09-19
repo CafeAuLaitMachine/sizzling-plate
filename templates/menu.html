@@ -21,7 +21,7 @@
                     <a class="nav-link" href="menu">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Cart</a>
+                    <a class="nav-link" href="checkout">Cart</a>
                 </li>
             </ul>
         </div>
@@ -30,11 +30,13 @@
 {% for dish in menu %}
 <div class="container">
     <p>
+    <form action="checkout/{{ dish['item']}}" method="GET">
     <h5 style="float: left">{{ dish["item"] }}</h5>
-    <h5 style="float: right">{{ dish["price"] }}</h5>
+    <h5 style="float: right">{{ dish["price"] }}$</h5>
     <button id="addToCartButton">Add to Cart</button>
+    </form>
     </p>
-    <h7>{{ dish["description"] }}</h7>
+    <h6>{{ dish["description"] }}</h6>
 </div>
 {% endfor %}
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

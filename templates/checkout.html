@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Homepage - The Sizzling Plate</title>
+    <title>Menu - The Sizzling Plate</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="static/styles.css">
@@ -10,7 +10,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">Sizzling plate</a>
+        <a class="navbar-brand" href="/">Sizzling plate</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -18,16 +18,31 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="menu">Menu</a>
+                    <a class="nav-link" href="/menu">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="checkout">Cart</a>
+                    <a class="nav-link" href="/checkout">Cart</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<header>WELCOME!!! to sizzling plate italian style restaurant</header>
+<div class="container">
+    <h5 style="float: left">Cart</h5>
+    <h5 style="float: right">go back</h5><br/>
+    <br/>
+    <form action="#" method="post">
+        <p class="dish">{{ dish['item'] }} </p>
+        <p class="dish">price: {{ dish['price'] }}dol.</p>
+        <p>Name:</p>
+        <p><input type="text" name="nm"/></p>
+        <p>Surame:</p>
+        <p><input type="text" name="srn"/></p>
+        <p>Gmail:</p>
+        <p><input type="text" name="gmail"/></p>
+        <p><input type="submit" value="submit"/></p>
+    </form>
+</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
