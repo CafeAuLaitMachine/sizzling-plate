@@ -10,7 +10,7 @@ def homepage():
     return render_template("index.html")
 
 
-@app.route('/menu', methods=["POST", "GET"])
+@app.route('/menu', methods=["GET"])
 def menu():
     return render_template("menu.html", menu=menu_dict)
 
@@ -21,12 +21,10 @@ def checkout(dish=None, menu=menu_dict):
     for food in menu:
         if food['item'] == dish:
             chosen_food = food
+            break
     if request.method == 'POST':
-        client = dict()
-        client["name"] = request.form['nm']
-        client["surname"] = request.form['srn']
-        client["gmail"] = request.form['gmail']
-        client["order"] = chosen_food
+        client = {"name": request.form['name'], "surname": request.form['surname'], "gmail": request.form['gmail'],
+                  "order": chosen_food}
         return redirect('/confirmation/' + json.dumps(client))
     else:
         return render_template("checkout.html", dish=chosen_food)
@@ -34,7 +32,7 @@ def checkout(dish=None, menu=menu_dict):
 
 @app.route('/confirmation/<string:client>')
 def confirm(client):
-    return render_template("con_page.html", client=json.loads(client))
+    return render_template("confirm_page.html", client=json.loads(client))
 
 
 if __name__ == '__main__':
