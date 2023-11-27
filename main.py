@@ -19,7 +19,7 @@ def add_to_cart(dishes=None):
             session["dishes"] = json.loads(dishes)
         else:
             session["dishes"] = session["dishes"] + json.loads(dishes)
-    return redirect("/checkout")
+    return redirect("/checkout/")
 
 
 def send_email(client):

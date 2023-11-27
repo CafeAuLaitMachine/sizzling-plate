@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Confirmation - The Sizzling Plate</title>
+    <script>setTimeout(function() {
+    window.location.href = 'http://127.0.0.1:5000';
+}, 6000);</script>
 </head>
 <body>
 <p>Your order:</p>
-<p>{{client["order"]['item']}}</p>
-<p>price:{{client["order"]['price']}}</p>
+{% for _ in client["order"]["items"] %}
+    <p>{{_}}</p>
+{% endfor %}
+<p>price:{{client["order"]['price']}} $</p>
 <p>YOUR ORDER HAS BEEN CONFIRMED!!!!</p>
 </body>
 </html>

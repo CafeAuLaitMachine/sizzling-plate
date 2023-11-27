@@ -1,3 +1,52 @@
 body {
-  background-color: white;
+  background-color: cream;
+}
+nav {
+    background-color: Brown;
+    block-size: 200px;
+}
+a.navbar-brand{
+    font: 150% Verdana, sans-serif;
+    color: white;
+}
+a.nav-link {
+    font: 140% Verdana, sans-serif;
+    color: white;
+}
+#navbarText{
+    display: block;
+}
+header {
+    font: 200% Verdana, sans-serif;
+    color: white;
+    float: center;
+    width: 21%;
+    height: 20%;
+    position: fixed;
+    top: 30%;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+h5 {
+    font: Verdana, sans-serif;
+    color: #202124;
+    float: center;
+}
+.bingchyling{
+    width: 50%;
+    height:auto;
+    margin: auto;
+    border: 3px solid color: #202124;
+}
+.container{
+    border: 3px solid color: #202124;
+    margin: auto;
+}
+.menu_container{
+    margin: 1%;
+}
+@media only screen and (max-width: 600px) {
+  .bingchyling{
+    width: 90%;
+  }
 }
